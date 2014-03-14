@@ -23,7 +23,7 @@
 		F4371D9F18CDC324003B0EB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4371D7B18CDC324003B0EB3 /* UIKit.framework */; };
 		F4371DA718CDC324003B0EB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4371DA518CDC324003B0EB3 /* InfoPlist.strings */; };
 		F4371DA918CDC325003B0EB3 /* testGithubWithXcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4371DA818CDC325003B0EB3 /* testGithubWithXcodeTests.m */; };
-		F49C574518D2DFE5005623EB /* STBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = F49C574418D2DFE5005623EB /* STBattery.m */; };
+		F49C574518D2DFE5005623EB /* Battery.m in Sources */ = {isa = PBXBuildFile; fileRef = F49C574418D2DFE5005623EB /* Battery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		F4371DA418CDC324003B0EB3 /* testGithubWithXcodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testGithubWithXcodeTests-Info.plist"; sourceTree = "<group>"; };
 		F4371DA618CDC324003B0EB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4371DA818CDC325003B0EB3 /* testGithubWithXcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGithubWithXcodeTests.m; sourceTree = "<group>"; };
-		F49C574318D2DFE5005623EB /* STBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBattery.h; sourceTree = "<group>"; };
-		F49C574418D2DFE5005623EB /* STBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBattery.m; sourceTree = "<group>"; };
+		F49C574318D2DFE5005623EB /* Battery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battery.h; sourceTree = "<group>"; };
+		F49C574418D2DFE5005623EB /* Battery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Battery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,8 +130,8 @@
 				F4371D9318CDC324003B0EB3 /* testGithubWithXcodeSecondViewController.m */,
 				F4371D9518CDC324003B0EB3 /* Images.xcassets */,
 				F4371D7E18CDC324003B0EB3 /* Supporting Files */,
-				F49C574318D2DFE5005623EB /* STBattery.h */,
-				F49C574418D2DFE5005623EB /* STBattery.m */,
+				F49C574318D2DFE5005623EB /* Battery.h */,
+				F49C574418D2DFE5005623EB /* Battery.m */,
 			);
 			path = testGithubWithXcode;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 				F4371D8818CDC324003B0EB3 /* testGithubWithXcodeAppDelegate.m in Sources */,
 				F4371D9418CDC324003B0EB3 /* testGithubWithXcodeSecondViewController.m in Sources */,
 				F4371D9118CDC324003B0EB3 /* testGithubWithXcodeFirstViewController.m in Sources */,
-				F49C574518D2DFE5005623EB /* STBattery.m in Sources */,
+				F49C574518D2DFE5005623EB /* Battery.m in Sources */,
 				F4371D8418CDC324003B0EB3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
